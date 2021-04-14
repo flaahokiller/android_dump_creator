@@ -34,8 +34,8 @@ jobs:
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
               touch .tg_chat
               echo "@CarbonatedBlackLabs" >> ".tg_chat"
-              git config --global user.email "manofuranium@gmail.com"
-              git config --global user.name "ElytrA8"
+              git config --global user.email "flashokiller@gmail.com"
+              git config --global user.name "flaahokiller"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
