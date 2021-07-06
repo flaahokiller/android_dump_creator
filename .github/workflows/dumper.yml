@@ -29,11 +29,11 @@ jobs:
               touch .tg_token
               echo "${{ secrets.BOT }}" >> ".tg_token"
               touch .github_orgname
-              echo "AndroidDump" >> ".github_orgname"
+              echo "flashokiller-dumps" >> ".github_orgname"
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
               touch .tg_chat
-              echo "@CarbonatedBlackLabs" >> ".tg_chat"
+              echo "@flashokiller_android_dump" >> ".tg_chat"
               git config --global user.email "flashokiller@gmail.com"
               git config --global user.name "flaahokiller"
        - name: Download Stock Rom & Generate dump
