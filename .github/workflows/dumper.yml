@@ -3,12 +3,12 @@ name: Dumping
 on:
   workflow_dispatch:
     inputs:
-      rom_link:
-        description: 'rom link'
+      house_link:
+       description: 'fuck'
         required: true
 
 env:
-  ROM_URL: ${{ github.event.inputs.rom_link }}
+  ROM_URL: ${{ github.event.inputs.house_link }}
 jobs:
   dump:
     runs-on: ubuntu-20.04
