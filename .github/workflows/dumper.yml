@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       house_link:
-       description: 'fuck'
+        description: 'fuck'
         required: true
 
 env:
