@@ -35,7 +35,7 @@ jobs:
               touch .tg_chat
               echo "@flashokiller_android_dumps" >> ".tg_chat"
               git config --global user.email "flashokiller@gmail.com"
-              git config --global user.name "flaahokiller"
+              git config --global user.name "flashokiller"
        - name: Download Stock Rom & Generate dump
          run: |
               cd dumper
