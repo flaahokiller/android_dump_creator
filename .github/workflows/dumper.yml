@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       house_link:
-        description: 'fuck'
+        description: 'wow'
         required: true
 
 env:
@@ -33,7 +33,7 @@ jobs:
               touch .github_token
               echo "${{ secrets.GHTOKEN }}" >> ".github_token"
               touch .tg_chat
-              echo "@flashokiller_android_dump" >> ".tg_chat"
+              echo "@flashokiller_android_dumps" >> ".tg_chat"
               git config --global user.email "flashokiller@gmail.com"
               git config --global user.name "flaahokiller"
        - name: Download Stock Rom & Generate dump
